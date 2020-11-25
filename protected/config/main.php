@@ -18,17 +18,17 @@ return array(
 		'application.components.*',
 	),
 
-	'modules'=>array(
+	//'modules'=>array(
 		// uncomment the following to enable the Gii tool
 		
-		'gii'=>array(
-			'class'=>'system.gii.GiiModule',
-			'password'=>'cocuyo',
+		//'gii'=>array(
+			//'class'=>'system.gii.GiiModule',
+			//'password'=>'cocuyo',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
-			'ipFilters'=>array('127.0.0.1','::1'),
-		),
+			//'ipFilters'=>array('127.0.0.1','::1','https://pw2020.herokuapp.com/'),
+		//),
 		
-	),
+	//),
 
 	// application components
 	'components'=>array(
